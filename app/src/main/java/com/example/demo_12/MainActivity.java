@@ -1,4 +1,9 @@
 package com.example.demo_12;
+/**
+ * @author      Yaara Lugasi.yl7717@bs.amalnet.k12.il
+ * @version     1.0
+ * @since		22/3/2026
+ */
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -14,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
     public ToggleButton toggleButton;
     public ConstraintLayout constraintLayout;
 
+    /**
+     * @param.aSwitch.שולט בסוג הצבע
+     * @param.toggleButton.שולט בבחירת הצבע
+     * @param.constraintLayout.רכיב המסך שמשתנה לו הצבע
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
